@@ -3,7 +3,7 @@ setwd("C:/Users/max-s_000/Documents/l4")
 txtfile <- read.table("lab.txt", header = FALSE)
 txtfile
 
-userdata <- readline("Ââåäèòå Âàøè äàííûå: ")
+userdata <- readline("Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ð°ÑˆÐ¸ Ð´Ð°Ð½Ð½Ñ‹Ðµ: ")
 
 df <- data.frame(name = txtfile, last_name= userdata[1:1], salary= userdata[1:1])
 df2 <- data.frame(txtfile, userdata)
